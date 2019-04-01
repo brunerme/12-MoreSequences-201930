@@ -593,7 +593,6 @@ def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color,
             line.attach_to(window)
             window.render()
 
-
         else:
             line = rg.Line(points[k], points[k+hops_to_next_point])
             line.thickness = thickness
